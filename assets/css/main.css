@@ -1,0 +1,134 @@
+{
+	margin: 0px;
+}
+
+body{
+	background-color: #99CCFF;
+}
+
+.rectangulo-pasto{
+	margin-left: 30px;
+	width: 1000px;
+	height: 50px;
+	bottom: 50px;
+	background-color: #006600;
+	position: fixed;
+	top: 450px;
+}
+
+.techo-casa{
+	position: fixed;
+	border-bottom: 100px solid brown;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	bottom: 50px;
+	height: 0;
+	width: 200px;
+	left: 505px;
+	top: 150px;
+}
+
+.rectangulo-casa{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	background-color: #996633;
+	top: 250px;
+	margin-left: 550px;
+}
+
+.cuadrado-ventana{
+	width: 60px;
+	height: 60px;
+	bottom: 50px;
+	background-color: #FF66FF;
+	position: absolute;
+	left: 800px;
+	top: 300px;
+}
+
+.rectangulo-puerta{
+
+	width: 75px;
+	height: 100px;
+	bottom: 50px;
+	background-color: #999999;
+	position: fixed;
+	left: 650px;
+	top: 350px;
+
+}
+
+.rectangulo-chimenea{
+
+	width: 45px;
+	height: 85px;
+	bottom: 50px;
+	background-color: #999999;
+	position: fixed;
+	left: 850px;
+	top: 130px;
+}
+
+.circulo-sol{
+	background: #FFFF33;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-align: center;
+	position: relative;
+	left: 65px;
+	top: 50px;
+}
+
+
+.circulo-humo{
+	background: #666666;
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: fixed;
+	left:885px;
+	top: 90px;
+}
+
+
+.circulo-humo1{
+	background: #666666;
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: fixed;
+	left:930px;
+	top: 65px;
+}
+
+.circulo-humo2{
+	background: #666666;
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: fixed;
+	left: 970px;
+	top: 35px;
+}
+
+.circulo-manilla{
+	background: black;
+	width: 10px;
+	height: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	left: 700px;
+	top:405px;
+}
